@@ -747,7 +747,7 @@
 
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
-##  Spring, Core Spring IoC
+## Spring, Core Spring IoC
 + [Что такое `Spring Framework`?](scs.md#Что-такое-Spring-Framework)
 + [Каковы особенности `Spring Framework`?](scs.md#Каковы-особенности-Spring-Framework)
 + [Что такой файл конфигурации `Spring`?](scs.md#Что-такой-файл-конфигурации-Spring)
@@ -777,7 +777,7 @@
 
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
-##  Spring AOP, Spring JDBC, Spring Hibernate
+## Spring AOP, Spring JDBC, Spring Hibernate
 + [Что такое `Spring AOP?`](sos.md#Что-такое-Spring-AOP)
 + [Что такое совет (advice)? Объясните его типы в `Spring`](sos.md#Что-такое-совет-(advice))
 + [Что такой паттерн прокси в `Spring AOP`?](sos.md#Что-такой-паттерн-прокси-в-Spring-AOP)
@@ -790,7 +790,7 @@
 
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
-##  Spring MVC
+## Spring MVC
 + [Что такая фреймворк `Spring MVC`?](sm.md#Что-такая-фреймворк-Spring-MVC)
 + [Какие преимущества фреймворка `Spring MVC` по сравнению с другими MVC-фреймворками?](sm.md#Какие-преимущества-фреймворка-Spring-MVC)
 + [Что такой `DispatcherServlet` в `Spring MVC`? Можете ли вы объяснить архитектуру Spring MVC?](sm.md#Что-такой-DispatcherServlet-в-Spring-MVC)
