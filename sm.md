@@ -14,7 +14,7 @@
 + [Для чего используется аннотация `@Autowired`?](#Для-чего-используется-аннотация-@Autowired)
 + [Какова роль аннотации `@ModelAttribute`?](#Какова-роль-аннотации-@ModelAttribute)
 + [Какова важность файла ``web.xml` в `Spring MVC`?](#Какова-важность-файла-web.xml)
-+ [Какие типы внедрения зависимостей `(Dependency Injection)` существуют в Spring MVC?](#Какие-типы -Dependency-Injection)
++ [Какие типы внедрения зависимостей `(Dependency Injection)` существуют в Spring MVC?](#Какие-типы-Dependency-Injection)
 + [Какова важность области видимости сессии `(session scope)`?](#Какова-важность-области-видимости-сессии-(session-scope))
 + [Каково значение аннотации `@Required`?](#Каково-значение-аннотации-@Required)
 + [В чем разница между аннотациями `@Autowired и @Inject`?](#В-чем-разница-между-аннотациями-@Autowired-и-@Inject)
@@ -22,14 +22,14 @@
 + [Как можно обеспечить потокобезопасность в бинах (beans)?](#Как-можно-обеспечить-потокобезопасность-в-бинах)
 + [Каково значение аннотации `@Repository`?](#Каково-значение-аннотации-@Repository)
 + [Как инициализируется диспетчер сервлетов `(dispatcher servlet)`?](#Как-инициализируется-dispatcher-servlet)
-+ [Как загружается корневой контекст приложения `(root application context)` в Spring MVC?](#Как-загружается-root-application-context-в-Spring MVC)
++ [Как загружается корневой контекст приложения `(root application context)` в Spring MVC?](#Как-загружается-root-application-context-в-Spring-MVC)
 + [Как выглядит поток выполнения в Spring MVC? Другими словами, как `DispatcherServlet` узнает, какой контроллер следует вызвать при поступлении запроса в Spring MVC?](#Как-выглядит-поток-выполнения-в-Spring-MVC?-Другими-словами-как-DispatcherServlet-узнает-какой-контроллер-следует-вызвать-при-поступлении-запроса-в-Spring-MVC)
 + [Откуда происходит доступ к модели `(model)` из представления `(view)`?](#Откуда-происходит-доступ-к-model-из-view)
 + [Зачем нам нужен `BindingResult`?](#Зачем-нам-нужен-BindingResult)
 + [Что такие интерцепторы `(interceptors)` в Spring?](#Что-такие-interceptors-в-Spring)
 + [Нужно ли находиться на classpath файлу `spring-mvc.jar` или он уже присутствует в составе `spring-core`?](#Нужно-ли-находиться-на-classpath-файлу-spring-mvc.jar)
 + [В чем разница между тегами `context:annotation-config` и `context:component-scan`?](#В-чем-разница-между-тегами-context:annotation-config-и-context:component-scan)
-+ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](#Как-выполняется -алидация-данных-формы-в-фреймворке-Spring-Web-MVC)
++ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](#Как-выполняется-алидация-данных-формы-в-фреймворке-Spring-Web-MVC)
 + [Как получить объекты `ServletConfig` и `ServletContext` в spring bean?](#Как-получить-объекты-ServletConfig-и-ServletContext-в-spring-bean)
 + [Как в Spring MVC поддерживаются  `i18n` (международная адаптация) и локализация?](#Как-в-Spring-MVC-поддерживаются-i18n)
 + [Что вы понимаете под `MultipartResolver`?](#Что-вы-понимаете-под-MultipartResolver)
@@ -147,7 +147,7 @@ public Date formatDate(String value){
 
 [к оглавлению](#spring-mvs)
 
-## Какова важность файла ``web.xml` в `Spring MVC`?
+## Какова важность файла  `web.xml` в `Spring MVC`?
 web.xml, также известный как Deployment Descriptor, содержит определения сервлетов и их сопоставления, фильтры и прослушиватели жизненного цикла. Он также используется для конфигурации ContextLoaderListener. При развертывании приложения создается экземпляр ContextLoaderListener контейнером сервлетов, что приводит к загрузке WebApplicationContext.
 
 [к оглавлению](#spring-mvs)
