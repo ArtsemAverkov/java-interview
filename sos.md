@@ -1,12 +1,12 @@
 [Вопросы для собеседования](README.md)
 
-# Spring AOP, Spring- DBC, Spring Hibernate
-+ [Что такое `Spring AOP?`](#Что-такое-Spring AOP)
+# Spring AOP, Spring DBC, Spring Hibernate
++ [Что такое `Spring AOP?`](#Что-такое-Spring-AOP)
 + [Что такое совет (advice)? Объясните его типы в `Spring`](#Что-такое-совет-(advice))
 + [Что такой паттерн прокси в `Spring AOP`?](#Что-такой-паттерн-прокси-в-Spring-AOP)
 + [Какие классы используются в `API Spring JDBC`?](#Какие-классы-используются-в-API-Spring-JDBC)
 + [Как можно получить записи с помощью `Spring JdbcTemplate`?](#Как-можно-получить-записи-с-помощью-Sprin-JdbcTemplate)
-+ [Что такая `Hibernate ORM`-система?](#Что такая Hibernate ORM-система)
++ [Что такая `Hibernate ORM`-система?](#Что-такая-Hibernate-ORM-система)
 + [Какими двумя способами можно использовать `Hibernate` с помощью `Spring`?](#Какими-двумя-способами-можно-использовать-Hibernate-с-помощью-Spring)
 + [Что такая `Hibernate Validator`-система?](#Что-такая-Hibernate-Validator-система)
 + [Что такой класс `HibernateTemplate`?](#Что-такой-класс-HibernateTemplate)
@@ -20,7 +20,7 @@ _Это позволяет легко поддерживать код._ Забо
 _Существуют два способа реализации Spring AOP:_
 + Использование XML-файлов конфигурации
 + Использование стиля аннотаций AspectJ
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 ## Что такое совет (advice)? Объясните его типы в `Spring`
 Совет (advice) представляет собой реализацию пересекающихся забот, которая может быть применена к другим модулям приложения Spring. Советы имеют в основном 5 типов:
@@ -45,14 +45,15 @@ _Around (вокруг):_
 + Это самый мощный совет, который окружает точку присоединения, такую как вызов метода.
 + Для использования данного совета используйте аннотацию @Around.
 
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
+
 
 ## Что такой паттерн прокси в `Spring AOP`?
 + Прокси-паттерн - это хорошо используемая схема проектирования, где прокси - это объект, который выглядит как другой объект, но добавляет ему специальную функциональность за кулисами.
 + Spring AOP следует шаблону на основе прокси, и он создается фреймворком AOP для реализации контрактов аспектов во время выполнения.
 + Стандартные динамические прокси JDK являются AOP-прокси по умолчанию, которые позволяют использовать любые интерфейсы. Spring AOP также может использовать прокси CGLIB, необходимые для прокси-классов, а не интерфейсов. Если бизнес-объект не реализует интерфейс, то по умолчанию используются прокси CGLIB.
 
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 ## Какие классы используются в `API Spring JDBC`?
 _Вот некоторые классы:_
@@ -63,7 +64,8 @@ _Вот некоторые классы:_
 + SimpleJdbcCall
 _Наиболее часто используемым является JdbcTemplate._ Он внутренне использует JDBC API и имеет преимущество в том, что нам не нужно создавать соединение, оператор, начинать транзакцию, фиксировать транзакцию и закрывать соединение для выполнения различных запросов. Все это обрабатывается самим JdbcTemplate. Разработчик может сосредоточиться на непосредственном выполнении запроса.
 
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
+
 
 ## Как можно получить записи с помощью `Spring JdbcTemplate`?
 Это можно сделать с помощью метода query в JdbcTemplate. Для этого есть два интерфейса:
@@ -79,33 +81,33 @@ _RowMapper:_
 + Это расширенная версия ResultSetExtractor, которая позволяет сэкономить много кода.
 + Он позволяет отобразить строку связи с экземпляром пользовательского класса.
 + Он внутренне выполняет итерацию по ResultSet и добавляет его в коллекцию результатов, тем самым сэкономив много кода для получения записей.
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 ## Что такая `Hibernate ORM`-система?
 _Object-relational mapping (ORM)_ - это явление отображения объектов модели предметной области приложения на таблицы реляционной базы данных и наоборот.
 _Hibernate_ - наиболее распространенный ORM-фреймворк на языке Java.
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 ## Какими двумя способами можно использовать `Hibernate` с помощью `Spring`?
 + Применение принципа инверсии управления с использованием Hibernate Template и Callback.
 + Расширение `HibernateDAOSupport` и применение перехватчика AOP-интерцептора.
 
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
-##Что-такая-Hibernate-Validator-система
+## Что-такая-Hibernate-Validator-система
 _Data validation является важной частью любого приложения. Мы можем найти проверку данных:_
  + На уровне пользовательского интерфейса перед отправкой объектов на сервер
  + На стороне сервера перед их обработкой
  + Перед сохранением данных в базу данных
 _Validation_ является поперечно-распространенной задачей, поэтому как хорошая практика, мы должны стараться отделять ее от нашей бизнес-логики. Спецификации JSR303 и JSR349 предоставляют возможность для проверки бинов с использованием аннотаций.
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 ##  Что такой класс `HibernateTemplate`?
 + До Hibernate 3.0.1 Spring предоставлял 2 класса: `HibernateDaoSupport` для получения сессии из Hibernate и `HibernateTemplate` для целей управления транзакциями в Spring.
 + Однако, начиная с Hibernate 3.0.1, с использованием класса `HibernateTemplate` мы можем использовать метод getCurrentSession() из SessionFactory для получения текущей сессии и использовать ее для получения преимуществ управления транзакциями.
 + `HibernateTemplate` имеет преимущество перевода исключений, но это легко достигается с помощью аннотации @Repository с классами сервиса.
 
-[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate-Interview-Questions)
+[к оглавлению](#Spring-AOP-Spring-JDBC-Spring-Hibernate)
 
 
 
