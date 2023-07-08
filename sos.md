@@ -2,11 +2,11 @@
 
 # Спринг aop
 + [Что такое `Spring AOP?`](#Что-такое-Spring-AOP)
-+ [Что такое совет (advice)? Объясните его типы в `Spring`](#Что-такое-совет-(advice))
++ [Что такое совет (advice)? Объясните его типы в `Spring`](#Что-такое-совет-advice)
 + [Что такой паттерн прокси в `Spring AOP`?](#Что-такой-паттерн-прокси-в-Spring-AOP)
 + [Какие классы используются в `API Spring JDBC`?](#Какие-классы-используются-в-API-Spring-JDBC)
 + [Как можно получить записи с помощью `Spring JdbcTemplate`?](#Как-можно-получить-записи-с-помощью-Sprin-JdbcTemplate)
-+ [Что такая `Hibernate ORM`-система?](#Что-такая-Hibernate-ORM-система)
++ [Что такое `Hibernate ORM`-система?](#Что-такая-Hibernate-ORM-система)
 + [Какими двумя способами можно использовать `Hibernate` с помощью `Spring`?](#Какими-двумя-способами-можно-использовать-Hibernate-с-помощью-Spring)
 + [Что такая `Hibernate Validator` система?](#Что-такая-Hibernate-Validator-система)
 + [Что такой класс `HibernateTemplate`?](#Что-такой-класс-HibernateTemplate)

@@ -23,10 +23,10 @@
 + [Основы HTML](#Основы-html) ![icon][done]
 + [Основы CSS](#Основы-css) ![icon][done]
 + [Основы Web](#Основы-web) ![icon][done]
-+ [Дополнительные материалы](#Дополнительные-материалы) ![icon][done]
 + [Spring, Core Spring IoC](#Спринг-core) ![icon][done]
-+ [Spring MVC](#Спринг-mvc) ![icon][done]
 + [Spring AOP, Spring JDBC, Spring Hibernate](#Спринг-aop) ![icon][done]
++ [Spring MVC](#Спринг-mvc) ![icon][done]
++ [Дополнительные материалы](#Дополнительные-материалы) ![icon][done]
 
 [done]:done.png
 
