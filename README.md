@@ -24,9 +24,9 @@
 + [Основы CSS](#Основы-css) ![icon][done]
 + [Основы Web](#Основы-web) ![icon][done]
 + [Дополнительные материалы](#Дополнительные-материалы) ![icon][done]
-+ [Spring, Core Spring IoC](#Spring-Core-Spring-IoC) ![icon][done]
-+ [Spring MVC](#Spring-MVC) ![icon][done]
-+ [Spring AOP, Spring JDBC, Spring Hibernate](#Spring-AOP-Spring-JDBC-Spring-Hibernate) ![icon][done]
++ [Spring, Core Spring IoC](#Спринг-core) ![icon][done]
++ [Spring MVC](#Спринг-mvc) ![icon][done]
++ [Spring AOP, Spring JDBC, Spring Hibernate](#Спринг-aop) ![icon][done]
 
 [done]:done.png
 
@@ -747,7 +747,7 @@
 
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
-##Spring-Core-Spring-IoC
+## Spring, Core Spring IoC
 + [Что такое `Spring Framework`?](scs.md#Что-такое-Spring-Framework)
 + [Каковы особенности `Spring Framework`?](scs.md#Каковы-особенности-Spring-Framework)
 + [Что такой файл конфигурации `Spring`?](scs.md#Что-такой-файл-конфигурации-Spring)
@@ -756,7 +756,7 @@
 + [Объясните разницу между внедрением через конструктор `constructor injection` и внедрением через сеттер `setter injection`.](scs.md#Объясните-разницу-между-внедрением-через-конструктор)
 + [Что такое `Spring Beans`?](scs.md#Что-такое-Spring-Beans)
 +[Как предоставляется метаданные конфигурации контейнеру `Spring`?](scs.md#Как-предоставляется-метаданные-конфигурации-контейнеру-Spring)
-+ [Какие существуют области видимости бинов в `Spring`?](scs.md#Какие-существуют-области-видимости-бинов в-Spring)
++ [Какие существуют области видимости бинов в `Spring`?](scs.md#Какие-существуют-области-видимости-бинов-в-Spring)
 + [Объясните жизненный цикл бина в контейнере `Spring Bean Factory`.](scs.md#Объясните-жизненный-цикл-бина-в-контейнере-Spring-Bean-Factory)
 + [Что вы понимаете под связыванием бинов (`Bean Wiring`)?](scs.md#Что-вы-понимаете-под-связыванием-бинов)
 + [Что такое автосвязывание (`autowiring`) и какие режимы его существуют?](scs.md#Что-такое-автосвязывание-(autowiring))
@@ -778,19 +778,20 @@
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
 
-#Spring-AOP-Spring-JDBC-Spring-Hibernate
-+ [Что такое `Spring AOP?`](sos.md#Что-такое-Spring AOP)
+## Spring AOP, Spring JDBC, Spring Hibernate
++ [Что такое `Spring AOP?`](sos.md#Что-такое-Spring-AOP)
 + [Что такое совет (advice)? Объясните его типы в `Spring`](sos.md#Что-такое-совет-(advice))
 + [Что такой паттерн прокси в `Spring AOP`?](sos.md#Что-такой-паттерн-прокси-в-Spring-AOP)
 + [Какие классы используются в `API Spring JDBC`?](sos.md#Какие-классы-используются-в-API-Spring-JDBC)
 + [Как можно получить записи с помощью `Spring JdbcTemplate`?](sos.md#Как-можно-получить-записи-с-помощью-Sprin-JdbcTemplate)
-+ [Что такая `Hibernate ORM`-система?](sos.md#Что такая Hibernate ORM-система)
++ [Что такое `Hibernate ORM`-система?](sos.md#Что-такая-Hibernate-ORM-система)
 + [Какими двумя способами можно использовать `Hibernate` с помощью `Spring`?](sos.md#Какими-двумя-способами-можно-использовать-Hibernate-с-помощью-Spring)
 + [Что такая `Hibernate Validator`-система?](sos.md#Что-такая-Hibernate-Validator-система)
 + [Что такой класс `HibernateTemplate`?](sos.md#Что-такой-класс-HibernateTemplate)
+
 [к оглавлению](#Вопросы-для-собеседования-на-java-developer)
 
-##Spring-MVC
+## Spring MVC
 + [Что такая фреймворк `Spring MVC`?](sm.md#Что-такая-фреймворк-Spring-MVC)
 + [Какие преимущества фреймворка `Spring MVC` по сравнению с другими MVC-фреймворками?](sm.md#Какие-преимущества-фреймворка-Spring-MVC)
 + [Что такой `DispatcherServlet` в `Spring MVC`? Можете ли вы объяснить архитектуру Spring MVC?](sm.md#Что-такой-DispatcherServlet-в-Spring-MVC)
@@ -803,7 +804,7 @@
 + [Для чего используется аннотация `@Autowired`?](sm.md#Для-чего-используется-аннотация-@Autowired)
 + [Какова роль аннотации `@ModelAttribute`?](sm.md#Какова-роль-аннотации-@ModelAttribute)
 + [Какова важность файла ``web.xml` в `Spring MVC`?](sm.md#Какова-важность-файла-web.xml)
-+ [Какие типы внедрения зависимостей `(Dependency Injection)` существуют в Spring MVC?](sm.md#Какие-типы -Dependency-Injection)
++ [Какие типы внедрения зависимостей `(Dependency Injection)` существуют в Spring MVC?](sm.md#Какие-типы-Dependency-Injection)
 + [Какова важность области видимости сессии `(session scope)`?](sm.md#Какова-важность-области-видимости-сессии-(session-scope))
 + [Каково значение аннотации `@Required`?](sm.md#Каково-значение-аннотации-@Required)
 + [В чем разница между аннотациями `@Autowired и @Inject`?](sm.md#В-чем-разница-между-аннотациями-@Autowired-и-@Inject)
@@ -811,14 +812,14 @@
 + [Как можно обеспечить потокобезопасность в бинах (beans)?](sm.md#Как-можно-обеспечить-потокобезопасность-в-бинах)
 + [Каково значение аннотации `@Repository`?](sm.md#Каково-значение-аннотации-@Repository)
 + [Как инициализируется диспетчер сервлетов `(dispatcher servlet)`?](sm.md#Как-инициализируется-dispatcher-servlet)
-+ [Как загружается корневой контекст приложения `(root application context)` в Spring MVC?](sm.md#Как-загружается-root-application-context-в-Spring MVC)
++ [Как загружается корневой контекст приложения `(root application context)` в Spring MVC?](sm.md#Как-загружается-root-application-context-в-Spring-MVC)
 + [Как выглядит поток выполнения в Spring MVC? Другими словами, как `DispatcherServlet` узнает, какой контроллер следует вызвать при поступлении запроса в Spring MVC?](sm.md#Как-выглядит-поток-выполнения-в-Spring-MVC?-Другими-словами-как-DispatcherServlet-узнает-какой-контроллер-следует-вызвать-при-поступлении-запроса-в-Spring-MVC)
 + [Откуда происходит доступ к модели `(model)` из представления `(view)`?](sm.md#Откуда-происходит-доступ-к-model-из-view)
 + [Зачем нам нужен `BindingResult`?](sm.md#Зачем-нам-нужен-BindingResult)
 + [Что такие интерцепторы `(interceptors)` в Spring?](sm.md#Что-такие-interceptors-в-Spring)
 + [Нужно ли находиться на classpath файлу `spring-mvc.jar` или он уже присутствует в составе `spring-core`?](sm.md#Нужно-ли-находиться-на-classpath-файлу-spring-mvc.jar)
-+ [В чем разница между тегами `context:annotation-config` и `context:component-scan`?](sm.md#В-чем-разница-между-тегами-context:annotation-config-и-context:component-scan)
-+ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](sm.md#Как-выполняется -алидация-данных-формы-в-фреймворке-Spring-Web-MVC)
++ [В чем разница между тегами `context:annotation-config` и `context:component-scan`?](sm.md#В-чем-разница-между-тегами-context-annotation-config-и-context-component-scan)
++ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](sm.md#Как-выполняется -валидация-данных-формы-в-фреймворке-Spring-Web-MVC)
 + [Как получить объекты `ServletConfig` и `ServletContext` в spring bean?](sm.md#Как-получить-объекты-ServletConfig-и-ServletContext-в-spring-bean)
 + [Как в Spring MVC поддерживаются  `i18n` (международная адаптация) и локализация?](sm.md#Как-в-Spring-MVC-поддерживаются-i18n)
 + [Что вы понимаете под `MultipartResolver`?](sm.md#Что-вы-понимаете-под-MultipartResolver)
