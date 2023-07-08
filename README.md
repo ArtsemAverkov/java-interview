@@ -818,7 +818,7 @@
 + [Что такие интерцепторы `(interceptors)` в Spring?](sm.md#Что-такие-interceptors-в-Spring)
 + [Нужно ли находиться на classpath файлу `spring-mvc.jar` или он уже присутствует в составе `spring-core`?](sm.md#Нужно-ли-находиться-на-classpath-файлу-spring-mvc.jar)
 + [В чем разница между тегами `context:annotation-config` и `context:component-scan`?](sm.md#В-чем-разница-между-тегами-context-annotation-config-и-context-component-scan)
-+ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](sm.md#Как-выполняется -валидация-данных-формы-в-фреймворке-Spring-Web-MVC)
++ [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](sm.md#Как-выполняется-валидация-данных-формы-в-фреймворке-Spring-Web-MVC)
 + [Как получить объекты `ServletConfig` и `ServletContext` в spring bean?](sm.md#Как-получить-объекты-ServletConfig-и-ServletContext-в-spring-bean)
 + [Как в Spring MVC поддерживаются  `i18n` (международная адаптация) и локализация?](sm.md#Как-в-Spring-MVC-поддерживаются-i18n)
 + [Что вы понимаете под `MultipartResolver`?](sm.md#Что-вы-понимаете-под-MultipartResolver)
