@@ -4,7 +4,7 @@
 + [Что такое `Spring Framework`?](#Что-такое-Spring-Framework)
 + [Каковы особенности `Spring Framework`?](#Каковы-особенности-Spring-Framework)
 + [Что такой файл конфигурации `Spring`?](#Что-такой-файл-конфигурации-Spring)
-+ [Что означает контейнер IoC `Inversion of Control`?](#Что-означает-контейнер-IoC-nversion of Control-?)
++ [Что означает контейнер IoC `Inversion of Control`?](#Что-означает-контейнер-IoC-nversion-of-Control-?)
 + [Что вы понимаете под внедрением зависимостей `Dependency Injection`?](#Что-вы-понимаете-под-внедрением-зависимостей-Dependency-Injection-?)
 + [Объясните разницу между внедрением через конструктор `constructor injection` и внедрением через сеттер `setter injection`.](#Объясните-разницу-между-внедрением-через-конструктор)
 + [Что такое `Spring Beans`?](#Что-такое-Spring-Beans)
