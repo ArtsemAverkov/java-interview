@@ -3,9 +3,9 @@
 
 # Вопросы для собеседования на Java Developer
 
-+ [Spring Core](#Спринг-core) ![icon][done]
-+ [Spring AOP](#Спринг-aop) ![icon][done]
-+ [Spring MVC](#Спринг-mvc) ![icon][done]
++ [Spring Core](#Spring-Core) ![icon][done]
++ [Spring AOP](#Spring-AOP) ![icon][done]
++ [Spring MVC](#Spring-MVC) ![icon][done]
 + [ООП](#ООП) ![icon][done]
 + [JVM](#jvm) ![icon][done]
 + [Java Core](#java-core) ![icon][done]

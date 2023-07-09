@@ -1,6 +1,6 @@
 [Вопросы для собеседования](README.md)
 
-# Спринг mvc
+# Spring MVC
 + [Что такая фреймворк `Spring MVC`?](#Что-такая-фреймворк-Spring-MVC)
 + [Какие преимущества фреймворка `Spring MVC` по сравнению с другими MVC-фреймворками?](#Какие-преимущества-фреймворка-Spring-MVC)
 + [Что такой `DispatcherServlet` в `Spring MVC`? Можете ли вы объяснить архитектуру Spring MVC?](#Что-такой-DispatcherServlet-в-Spring-MVC)

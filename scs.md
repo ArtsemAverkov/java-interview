@@ -1,6 +1,6 @@
 [Вопросы для собеседования](README.md)
 
-# Спринг core
+# Spring Core
 + [Что такое `Spring Framework`?](#Что-такое-Spring-Framework)
 + [Каковы особенности `Spring Framework`?](#Каковы-особенности-Spring-Framework)
 + [Что такой файл конфигурации `Spring`?](#Что-такой-файл-конфигурации-Spring)
