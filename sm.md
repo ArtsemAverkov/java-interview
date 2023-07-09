@@ -27,7 +27,7 @@
 + [Зачем нам нужен `BindingResult`?](#Зачем-нам-нужен-BindingResult)
 + [Что такие интерцепторы `interceptors` в Spring?](#Что-такие-interceptors-в-Spring)
 + [Нужно ли находиться на classpath файлу `spring-mvc.jar` или он уже присутствует в составе `spring-core`?](#Нужно-ли-находиться-на-classpath-файлу-spring-mvc.jar-или-он-уже-присутствует-в-составе-spring-core?)
-+ [В чем разница между тегами `context:annotation config` и `context:component scan`?](#В-чем-разница-между-тегами-context:annotation-config-и-context:component-scan)
++ [В чем разница между тегами `context annotation config` и `context component scan`?](#В-чем-разница-между-тегами-context-annotation-config-и-context-component-scan)
 + [Как выполняется валидация данных формы в фреймворке `Spring Web MVC`?](#Как-выполняется-алидация-данных-формы-в-фреймворке-Spring-Web-MVC)
 + [Как получить объекты `ServletConfig` и `ServletContext` в spring bean?](#Как-получить-объекты-ServletConfig-и-ServletContext-в-spring-bean)
 + [Как в Spring MVC поддерживаются  `i18n` международная адаптация и локализация?](#Как-в-Spring-MVC-поддерживаются-i18n-международная-адаптация-и-локализация?)
@@ -420,7 +420,7 @@ Spring handler interceptor может быть зарегистрирован д
 
 [к оглавлению](#Spring-MVC)
 
-## В чем разница между тегами `context:annotation config` и `context:component scan`?
+## В чем разница между тегами `context annotation config` и `context component scan`?
 context:annotation-config используется для активации примененных аннотаций в предварительно зарегистрированных бинах в контексте приложения. Он также регистрирует бины, определенные в файле конфигурации, и сканирует аннотации внутри бинов и активирует их.
 
 Тег context:component-scan выполняет задачу context:annotation-config, а также сканирует пакеты и регистрирует бины в контексте приложения.
