@@ -270,7 +270,7 @@ this.article = article;
 public class UserBean {
 //некоторые методы и свойства
 }
-```j
+```
 Использование аннотации @SessionScope:
 
 ```java
