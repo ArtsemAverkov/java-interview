@@ -4,16 +4,16 @@
 + [Что такая фреймворк `Spring MVC`?](#Что-такая-фреймворк-Spring-MVC)
 + [Какие преимущества фреймворка `Spring MVC` по сравнению с другими MVC фреймворками?](#Какие-преимущества-фреймворка-Spring-MVC-по-сравнению-с-другими-MVC-фреймворками)
 + [Что такой `DispatcherServlet` в `Spring MVC` Можете ли вы объяснить архитектуру Spring MVC?](#Что-такой-DispatcherServlet-в-Spring-MVC-Можете-ли-вы-объяснить-архитектуру-Spring-MVC)
-+ [Что такой паттерн `View Resolver` и объясните его значение в `Spring MVC`?](#Что-такой-паттерн-View-Resolverи-объясните-его-значение-в-Spring-MVC)
++ [Что такой паттерн `View Resolver` и объясните его значение в `Spring MVC`?](#Что-такой-паттерн-View-Resolver-объясните-его-значение-в-Spring-MVC)
 + [Для чего используется аннотация `@Controller`?](#Для-чего-используется-аннотация-@Controller)
 + [Можно ли создать контроллер без использования аннотаций `@Controller` или `@RestControllerv?`](#Можно-ли-создать-контроллер-без-использования-аннотаций-@Controller-или-@RestController)
 + [Что такое `ContextLoaderListener` и что она делает?](#Что-такое-ContextLoaderListener-и-что-она-делает?)
 + [В чем разница между аннотациями `@RequestParam` и `@PathVariable`?](#В-чем-разница-между-аннотациями-@RequestParam-и-@PathVariable)
-+ [Что такое модель `Model` в Spring MVC?](#Что-такое-Model-в-Spring-MVC)
++ [Что такое модель `Model` в Spring MVC?](#Что-такое-модель-Model-в-Spring-MVC)
 + [Для чего используется аннотация `@Autowired`?](#Для-чего-используется-аннотация-@Autowired)
 + [Какова роль аннотации `@ModelAttribute`?](#Какова-роль-аннотации-@ModelAttribute)
 + [Какова важность файла `web.xml` в `Spring MVC`?](#Какова-важность-файла-web.xml-в-Spring-MVC?)
-+ [Какие типы внедрения зависимостей `Dependency Injection` существуют в Spring MVC?](#Какие-типы-Dependency-Injection-существуют-в-Spring-MVC?)
++ [Какие типы внедрения зависимостей `Dependency Injection` существуют в Spring MVC?](#Какие-типы-Dependency-Injection-существуют-в-Spring-MVC)
 + [Какова важность области видимости сессии `session scope`?](#Какова-важность-области-видимости-сессии-session-scope)
 + [Каково значение аннотации `@Required`?](#Каково-значение-аннотации-@Required)
 + [В чем разница между аннотациями `@Autowired и @Inject`?](#В-чем-разница-между-аннотациями-@Autowired-и-@Inject)
@@ -147,7 +147,7 @@ public Date formatDate(String value){
 
 [к оглавлению](#Spring-MVC)
 
-## Какова важность файла  `web.xml` в `Spring MVC`?
+## Какова важность файла `web.xml` в `Spring MVC`?
 web.xml, также известный как Deployment Descriptor, содержит определения сервлетов и их сопоставления, фильтры и прослушиватели жизненного цикла. Он также используется для конфигурации ContextLoaderListener. При развертывании приложения создается экземпляр ContextLoaderListener контейнером сервлетов, что приводит к загрузке WebApplicationContext.
 
 [к оглавлению](#Spring-MVC)
