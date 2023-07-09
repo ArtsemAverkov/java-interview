@@ -67,7 +67,7 @@ _Наиболее часто используемым является JdbcTempl
 
 [к оглавлению](#Spring-AOP)
 
-## Как можно получить записи с помощью `Spring JdbcTemplate`?
+## Как можно получить записи с помощью `Spring Jdbc Template`?
 Это можно сделать с помощью метода query в JdbcTemplate. Для этого есть два интерфейса:
 
 _ResultSetExtractor:_
